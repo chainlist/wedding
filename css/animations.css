@@ -1,0 +1,27 @@
+@keyframes windowshadow {
+  0% {
+    box-shadow: 0 4px 3px 5px rgba(252, 204, 182, 0.3);
+  }
+  30% {
+    box-shadow: 0 4px 3px 5px rgba(252, 204, 182, 0.3);
+  }
+  70% {
+    box-shadow: 0 4px 3px 5px rgba(155, 181, 239, 0.3);
+  }
+  100% {
+    box-shadow: 0 4px 3px 5px rgba(155, 181, 239, 0.3);
+  }
+}
+
+@keyframes sky {
+  0% { opacity: 0; }
+  30% { opacity: 0; }
+  70% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes flap {
+  0% { top: 0 }
+  90% { top: -100%; opacity: 1; }
+  100% { top: -100%; opacity: 0; }
+}

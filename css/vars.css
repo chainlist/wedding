@@ -1,0 +1,23 @@
+:root {
+  --night: linear-gradient(
+    180deg,
+    rgba(17, 57, 158, 1) 0%,
+    rgba(49, 90, 184, 1) 27%,
+    rgba(116, 140, 219, 1) 64%,
+    rgba(116, 140, 219, 1) 100%
+  );
+  --day: linear-gradient(
+    180deg,
+    rgba(230, 121, 118, 1) 0%,
+    rgba(230, 121, 118, 1) 27%,
+    rgba(247, 181, 143, 1) 64%,
+    rgba(254, 189, 144, 1) 68%,
+    rgba(254, 189, 144, 1) 100%
+  );
+  --cloud-night: #e6eff7;
+  --cloud-day: #fff7e6;
+  --cloud-night-shadow: #9bb5ef;
+  --cloud-day-shadow: #fcccb6;
+
+  --duration: 5s;
+}
